@@ -14,6 +14,9 @@ def main():
             results = num1 * num2
         elif (operation == '/'):
             results = num1 / num2
+        elif operation == '/' and num2 == 0:
+            print("Cannot divide number by 0")
+            break
         else:
             print("Invalid Operation")
             break
